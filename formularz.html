@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<head>
+<title>PSI</title>
+</head>
+<body>
+<div style="background-color:grey;">
+	<h1><center>PSI - Szymon Lis </center></h1>
+</div>
+<div style="float:left;width:30%;height:550px;">
+	<a href="index.html"> STRONA GŁÓWNA </a> </br>
+	<a href="nauczyciele.html"> NAUCZYCIELE </a> </br>
+	<a href="kolory.html"> KOLORY </a> </br>
+	<a href="zdjecia.html"> ZDJECIA </a> </br>
+	<a href="tabela.html"> TABELA </a> </br>
+	<a href="tabela_lis.html"> TABELA NA OCENE </a> </br>
+	<a href="listy.html"> LISTA </a> </br>
+	<a href="lis_lista.html"> LISTA NA OCENE </a> </br>
+	<a href="mapa_odsylaczy.html">MAPY ODSYLACZY </a><br/>
+	<a href="formularz.html">FORMULARZE </a><br/>
+</div>
+<div style="float:right;width:70%;">
+
+
+
+
+<body>
+<form action="onclick" method="post" enctype="multipart/form-data">
+<font size="6"><p><center> FORMULARZ KONTAKTOWY </center></p></font>
+<p> IMIĘ I NAZWISKO <input type="text" name"nazwisko_i_imie" size="30" /></p>
+<p> ADRES EMAIL <input type="text" name"email" value="email@gmail.com" /></p>
+<p> HASŁO <input type="password" id="haslo" maxlength="10"/></p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PŁEĆ (bez etykiety label)</p>
+<p><input type="radio" name="plec" id="mezczyzna" value="mezczyzna"> MĘŻCZYZNA </p>
+<p><input type="radio" name="plec" id="kobieta" value="kobieta" > KOBIETA </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PLEĆ (z etykietą label) </p>
+<p><label for="male"> mężczyzna </label>
+        <input type="radio"  name="gender" id="male"  value="mezczyzna" > <br/>
+        <label for="famale"> kobieta </label>
+        <input type="radio"  name="gender" id="famale"  value="kobieta" > <br/> </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> JĘZYKI, KTÓRYMI WŁADASZ: </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_ang" checked/> ANG </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_nie" > NIE </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_chn" > CHN </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<p><select name="nazwa_owoce" size="4" multiple>
+	<optgroup label="ULUBIONE OWOCE">
+		<option value="truskawki" />TRUSKAWKI
+		<option value="banany" />BANANY
+		<option value="maliny" />MALINY
+	</optgroup>
+</select>
+</p>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p><input list="blok" name="przegladarki"/>
+	<datalist id="blok">
+		<option value="Internet Explorer">
+		<option value="Firefox">
+		<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+	</datalist> <input type="submit" name="Prześlij">
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p>
+<select id="days[]" name="days[]" size="7" multiple>
+	<optgroup label="DNI WOLNE">
+		<option> SOBOTA </option>
+		<option> NIEDZIELA </option>
+	</optgroup>
+	<optgroup label="DNI ROBOCZE">
+		<option> PONIEDZIAŁEK </option>
+		<option> WTOREK </option>
+		<option> ŚRODA </option>
+		<option> CZWARTEK </option>
+		<option> PIĄTEK </option>
+	</optgroup>
+</select>
+</p>
+</form>
+
+
+</br>
+<hr>
+</br>
+
+</p><textarea cols="60" rows="6">
+Piotr Poziomka
+ul. mariacka 3
+40-773 Katowice
+Polska
+</textarea>
+</p>
+
+<p>
+<textarea cols="50" rows="6 ">
+Wprowadz swój adres
+</textarea>
+</p>
+
+</br>
+<hr>
+</br>
+
+<p><input type="reset" id="q"  /></p>
+<p><input type="button" name="leavel" value="Opuść stronę!"/></p>
+
+<p><button type="button" id="kupteraz" name="przycisk_zakupu" onclick="alert('zakupiono')"> Kup teraz! </button></p>
+<p><button type="button" id="kupteraz" name="przycisk_kupowania" onclick="alert('Zakupiono')"> Kupuj teraz!! </button> </p>
+<p><input type="file" name="leavel" value="Przeglądaj!"/>  </p>
+
+
+<p> WYKSZTAŁCENIE:  <p>
+<p><input type="radio" name="gr_op" value="Podstawowe" accesskey="P" /> Podstawowe  <br />
+<input type="radio" name="gr_op" value="Średnie" accesskey="S" /> Srednie  <br />
+<input type="radio" name="gr_op" value="Wyższe" accesskey="W" /> Wyższe  </p>
+
+<p><input type="hidden" name="nazwa " value="google" /> </p>
+
+<input type="image" name="nazwa" src="foty/pies.png"  />   <br/>
+
+
+
+<p> PRZYCISK WYSYŁANIA I CZYSZCZENIA PÓL <br />
+
+<input type="submit" value="wyslij" /> PRZYCISK PRZESYŁANIA<br />
+
+<input type="reset" value="wyczysc" /> PRZYCISK RESETOWANIA<br />
+</p>
+<p>
+PRZYCISKI BUTTON <br />  
+<button type="submit" name="przycisk1"> Wyslij!  </button> <br />
+<button type="reset" name="przycisk2" > Usuń  </button><br />
+<button type="button" name="przycisk3" onclick="allert(Nie można)" style="font: 12pt arial; background:red;" /> Powrót  </button><br /></p>
+
+<button type="submit" name="OBRAZEK"> <img src="foty/pies.png"  alt="formularz"> </button> </p>
+<p> Usprawnienia w Formularzach <p>
+<input name="adres" type="text" autofocus />   <br />
+<input name="adres" type="text" autocomplete="on" />   
+<br />
+
+
+<br />
+</br>
+<hr>
+</br>
+
+</div>
+<div style="background-color:grey;clear:both;">
+<center>&copy;S.L,October 2024 </center></div>	
+</body>
+</html>
