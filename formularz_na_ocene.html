@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projektowanie Stron Internetowych</title>
+</head>
+<body>
+	<div style="background-color:grey;">
+		<h1><center>PSI - Szymon Lis</center></h1>
+	</div>
+	<div style="float:left; wdith:30%; height: 550px;">
+		<h3>HTML</h3>
+			<a href="index.html">STRONA GŁÓWNA</a></br>
+			<a href="kolory (2).html">KOLORY</a></br>
+			<a href="nauczyciele.html">NAUCZYCIELE</a></br>
+			<a href="zdjecia.html">ZDJĘCIA</a></br>
+			<a href="tabela.html">TABELA</a></br>
+			<a href="tabela_lis.html">TABELA NA OCENE</a></br>
+			<a href="listy.html">LISTY</a></br>
+			<a href="lis_lista.html">LISTY NA OCENE</a></br>
+			<a href="mapa_odsylaczy.html">MAPY ODSYŁACZY</a></br>
+	</div>
+	<div style="float:right;width:70%;background-color:lightblue">
+	<body>
+	<p style-color
+    <form>
+        <fieldset>
+            <legend>ADRES</legend>
+            <label>
+                <input type="radio" name="adres" value="podstawowy"> Podstawowy
+            </label>
+            <label>
+                <input type="radio" name="adres" value="do-wysylki"> Do wysyłki
+            </label>
+            <label>
+                <input type="radio" name="adres" value="korespondencyjny"> Korespondendyjny
+            </label>
+            <label>
+                <input type="radio" name="adres" value="odbiorcy"> Odbiorcy
+            </label><br />
+			<label for="nazwa">Nazwa</label>
+            <input type="text" id="nazwa" name="nazwa"><br />
+
+            <label for="ulica">Ulica i numer</label>
+            <input type="text" id="ulica" name="ulica" ><br />
+
+            <label for="kod">Kod pocztowy</label>
+            <input type="text" id="kod" name="kod" ><br />
+
+            <label for="miasto">Miejscowość</label>
+            <input type="text" id="miasto" name="miasto"><br />
+			 <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon"><br />
+
+            <label for="email">Email</label>
+			<input type="email" id="email" name="email"><br />
+			</fieldset>
+
+        <fieldset>
+            <legend>WYSYŁKA</legend>
+            <label for="przesylka">Przesyłka</label><br />
+            <select type="number" id="pozycja" name="pozycja"><br />
+				<option value="ekonomiczna">ekonomiczna</option>
+                <option value="priorytet">priorytet</option>
+				<option value="ekspresowa">ekspresowa</option>
+
+            <label for="waga">Waga (g)</label>
+            <input type="text" id="waga" name="waga">
+			<label for="gabaryty">Gabaryty</label>
+            <select id="gabaryty" name="gabaryty"><br />
+                <option value="s">S (28 x 8 x 64 cm)</option>
+                <option value="m">M (38 x 19 x 64 cm)</option>
+				<option value="xl">L (41 x 38 x 64 cm)</option>
+                <option value="xl">XL (60 x 60 x 70 cm)</option>
+				</label><br />
+            </select>
+			<label for="waga">Wartosc</label>
+            <input type="text" id="wartosc" name="wartosc"><br />
+			<label for="nr-rachunku">Nr rachunku</label>
+            <input type="text" id="nr-rachunku" name="nr-rachunku"><br />
+			<label for="data-wysylki">Data wysyłki</label>
+            <input type="date" id="data-wysylki" name="data-wysylki">
+
+            <fieldset>
+                <legend>Opcje dodatkowe</legend>
+                <label><br />
+                    <input type="checkbox" name="opcje" value="zwrot"> Z - Żądanie zwrotu/odmówienia
+                </label>
+                <label><br />
+                    <input type="checkbox" name="opcje" value="polecenie"> R - Polecenie
+                </label>
+                <label><br />
+                    <input type="checkbox" name="opcje" value="potwierdzenie"> O - Potwierdzenie odbioru
+                </label>
+                <label><br />
+                    <input type="checkbox" name="opcje" value="sprawdzenie"> S - Sprawdzanie zawartości
+                </label>
+                <label><br />
+                    <input type="checkbox" name="opcje" value="ekstremalne"> K - Ekstremalne
+					<label><br />
+                </label>
+					<input type="checkbox" name="opcje" value="zabezpieczenie"> W - Zabezpieczenie wartości
+                <label><br />
+                </label>
+            </fieldset>
+			<label for="uwagi">Uwagi</label><br />
+            <p><textarea id="uwagi" name="uwagi" rows="4" value="Proszę o wpisanie wszelkich uwag"></textarea><p><br />
+        <button type="button" onload="wyslij">Wyślij</button>
+        <button type="button" onunload="anuluj">Anuluj</button> 
+                
+	</div>
+	<div style="background-color:grey;clear:both;">
+		<center> &copy; S.l., October 2024</center>
+	</div>
+</body>
+</html>
