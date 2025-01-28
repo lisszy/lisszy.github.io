@@ -95,8 +95,196 @@
 		border-width: 3px;
 		border-color: white;
 		width: 70%;
+		}
+		
+	.zadanie2a
+		{
+		text-decoration: overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color: white;
+		background-color: fuchsia;
+		border-style: dotted;
+		border-width: 3px;
+		border-color: white;
+		width: 70%;
 
 		}
+		h1#zadanie5
+			{
+			border: thick groove purple;
+			background-color: rgb(200, 40, 80);
+			font-family: sans-serif;
+			
+			}
+			
+			#ramka1 
+			{
+		border:30px solid transparent;
+		border-image: url(foty/papeteria.jpg) 50 stretch;
+		width:70%;
+		padding:10px;
+		background: white;
+		color:black;
+		}
+		#ramka2
+		{
+		border:30px solid transparent;
+		border-image: url(foty/papeteria.jpg) 50 round;
+		width:70%;
+		padding:10px;
+		background: white;
+		color:black;
+		}
+		h2#ramka3{
+			border: 50px solid;
+			border-image: url(foty/gif.webp) 100 round;
+			padding: 5px;
+			width: 33%;
+			font-size: 14px;
+			background: none;
+			text-align: left;
+			color: black;
+		}
+		h2#ramka3a{
+			border: 50px solid;
+			border-image: url(foty/gif.webp) 80 round;
+			padding: 5px;
+			width: 33%;
+			font-size: 14px;
+			background: none;
+			text-align: left;
+			color: black;
+		}
+		h2#ramka3b{
+			border: 50px solid;
+			border-image: url(foty/gif.webp) 50 round;
+			padding: 5px;
+			width: 33%;
+			font-size: 14px;
+			background: none;
+			text-align: left;
+			color: black;	
+		}
+		h3.zadanie{
+			text-decoration: overline;
+			letter-spacing: 5pt;
+			text-align: center;
+			color: white;
+			background-color: fuchsia;
+			border-style: dotted;
+			border-width: 3px;
+			border-color: white;
+			width: 70%;
+			}
+		.id8:link, .id8:visited {
+			color: black;
+			text-decoration-line: none;
+			background-color: fuchsia;
+			border: solid;
+			border-color: black;
+			border-width: 1px;
+			border-radius: 5px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		.id8:active {
+			color: silver;
+			text-decoration: none;
+			background-color: black;
+			border: dashed;
+			border-width: 1px;
+			border-color: silver;
+			border-radius: 5px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		.id8:hover {
+			color: yellow;
+			decoration: none;
+			background-color: green;
+			border: dotted;
+			border-color: yellow;
+			border-width: 1px;
+			border-radius: 5px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+			.id9:link,.id9:visited{
+			color: black;
+			text-decoration: none;
+			background-color: yellow;
+			border-style: double;
+			background-clip: content-box;
+			border-radius: 5px;
+			padding: 5px;
+				
+		}
+				
+			.id9:hover{
+			color: cyan;
+			text-decoration: none;
+			background-color: green;
+			border-style: outset;
+			background-clip: content-box
+			border-radius: 5px;
+		}
+			
+			.id9:active { 
+			color: grey;
+			text-decoration: none;
+			background-color: red;
+			border-style: dotted;
+			border-radius: 5px;
+		}
+			ul.punkty {
+				list-style-type:circle;
+				list-style-position:outside;
+				font-family: Tahoma;
+				color:orange;
+
+			}
+			ol.numer{
+				list-style-type:upper-alpha;
+				list-style-position: inside;
+				color:blue;
+				font-weight:200px;
+				font-size:large;
+				font-family:Verdana;
+			}
+			ol.gifek{
+				list-style-image: url(foty/gifek.gif);
+				list-style-position: inside;
+			}
+
+			ol.gwiazdka{
+				list-style-image: url(foty/gwiazdka.gif);
+				list-style-position: inside;
+			}
+			ol.gwiazdka2{
+				list-style-image: url(foty/gwiazdka.gif);
+				list-style-position: inside;
+			}
+			ol.gifek2{
+				list-style-image: url(foty/gifek.gif);
+				list-style-position: inside;
+			}
+			#kursor:hover{
+			cursor:crosshair;
+			}
+			
+			
+
+
+
+
+
+
+
+			
 </style></head>
 </head>
 <body>
@@ -117,6 +305,7 @@
 			<a href="formularz.html"> FORMULARZ </a><br />
 			<a href="formularz_na_ocene.html"> FORMULARZ NA OCENE </a><br />
 			<a href="video.html"> MEDIA </a><br />
+			<a href="canvas.html"> CANVAS </a><br />
 			
 		<h3>CSS</h3>
 <a href="właściwości_css.html"> WŁAŚCIWOŚCI CSS </a><br />
@@ -164,7 +353,103 @@
 	Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte</h2>
 	<h3 id="zadanie1">KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
 		DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI</h3>
+		
 	<h3 class="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+	<h3 class="zadanie2a">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+	<h1 id="zadanie5">
+		ZADANIE DODATKOWE
+		<h2 id="ramka1">
+		zadanie IV – OBRAMOWANIE:
+Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+border-image: url(folder/nazwa.jpg) 50 stretch;
+
+OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR.
+		<h2 id="ramka2">
+		zadanie IV – OBRAMOWANIE:
+Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2"
+TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+border-image: url(folder/nazwa.jpg) 50 round;
+
+OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR
+<h2 id="ramka3">
+						zadanie IV – OBRAMOWANIE:
+						Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+						TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+						border-image: url(foty/gwiazdka1.gif) 100 round;
+						</h2>
+				
+				
+					<h2 id="ramka3a">
+						zadanie IV – OBRAMOWANIE:
+						Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3a"
+						TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+						border-image: url(foty/gwiazdka1.gif) 80 round;
+						</h2>
+				
+				
+					<h2 id="ramka3b">
+						zadanie IV – OBRAMOWANIE:
+						Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3b"
+						TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+						border-image: url(foty/gwiazdka1.gif) 50 round;
+						</h2>
+
+		
+
+		
+		<h2 id="tytuly"> zadanie v - css: linki - pseudoklasy</h2>
+		
+		<a class="id8" href="https://www.onet.pl/">onet</a>
+		<a class="id8" href="https://www.wp.pl/">wirtualna polska</a>
+		<a class="id8" href="https://tsi-pai.cba.pl/"> TSI - PAI</a>
+		
+		<br /><br />
+		
+		<a class="id9" href="https://google.com/"> GOOGLE </a>
+		<a class="id9" href="https://zspm.pl/"> ZSPM </a>
+		<a class="id9" href="https://tsi-pai.cba.pl/"> TSI - PAI </a>
+		<h2 id="tytuly"> zadanie VI</h2>
+		Lista punktowana z klasą "punkty", TYP LISTY CIRCLE, POZYCJA PUNKTÓW NA ZEWNĄTRZ, DOWOLNY KOLOR, DOWOLNA CZCIONKA
+		<ul class="punkty">PIĘĆ ZALET PRZEDMIOTU TSI:
+			<li>to co tworzę od razu otrzmuję</li>
+			<li>ciekawy przedmiot</li>
+			<li>rodzinna atmosfera</li>
+			<li>bardzo dużo nowych informacji</li>
+			<li>nauczenie się języków HTML CSS</li>
+
+			</ul>
+			<ol class="numer">TRZY WADY PRZEDMIOTU TSI:
+				<li>jak kogoś nie ma na zajęciach to jest w lesie</li>
+				<li>zbyt dużo nowego materiału do nauczenia</li>
+				<li>więcej minusów brak</li>
+			</ol>
+			<ol class="gifek">
+				<li style="list-style-image: url(foty/gifek.gif);">KUPIC PREZENTY</li>
+			</ol>
+			</br>
+			<ol class="gwiazdka">
+				<li style="list-style-image: url(foty/gwiazdka.gif);">KUPIC KARPIA</li>
+			</ol>
+			<ol class="gifek2">
+				<li style="list-style-image: url(foty/gifek.gif);">KUPIC OPŁATKI</li>
+			</ol>
+			<ol class="gwiazdka2">
+				<li style="list-style-image: url(foty/gifek.gif);">sprzatac</li>
+				<li style="list-style-image: url(foty/gifek.gif);">sprzatac</li>
+				<li style="list-style-image: url(foty/gifek.gif);">sprzatac</li>
+				</ol>
+				<h2 id="tytuly"> zadanie VII - kursor</h2>
+				<table border="1" width="50%" class="new" id="kursor">
+				<tr>
+					<th> 1 </th>
+					<th> 2 </th>
+				</tr>
+					</t></table>
+
+
+
+		<br /><br />
 		</div>
 	<div style="background-color:grey;clear:both;"><center> &copy; S.L.,October 2024
 	</center></div>
