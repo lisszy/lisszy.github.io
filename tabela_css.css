@@ -1,0 +1,175 @@
+    table.zero,table.zero *{
+    border:1px solid blue;
+    width:40%;
+    table-layout:fixed;
+    border-collapse:collapse
+    }
+    
+    table.jeden,table.jeden *{
+
+    }
+    table, p, h4 {
+        margin-left: 15px;
+    }
+    
+    table.kl1, td.kl1 {
+        text-align: left;
+        border: 1px solid blue;
+        border-collapse: collapse;
+        padding: 5px 20px 5px 0px;
+    }
+    table.one {
+        width: 80%;
+        border-collapse: collapse;
+    }
+    th.one {
+        border: 3px solid red;
+        background-color: lightblue;
+        padding: 10px;
+    }
+    td.zwykle {
+        border: 3px solid #00ff00;
+        background-color: #ffff66;
+        padding: 10px;
+    }
+table.dwa, table.trzy, table.cztery{
+	border-collapse: collapse;
+	width: 80%;
+}
+th.dwa, td.dwa {
+	border-top: 1px aqua solid;
+	padding: 10px;
+}
+
+tr.dwa:hover {
+	border-top: 1px aqua solid;
+	padding: 10px;
+	background-color:aqua;
+}
+    table.trzy, table.trzy, table.trzy{
+        border-collapse: collapse;
+        width: 80%;
+    }
+    th.trzy, td.trzy {
+        
+        padding: 10px;
+    }
+    
+    tr.trzy:hover {
+       
+        padding: 10px;
+        background-color:gray;
+    }
+    tr.trzy1:hover {
+       
+        padding: 10px;
+        background-color:purple;
+    }
+
+
+td.cztery:nth-child(even):hover {
+	background-color: gray;
+}
+th.cztery:nth-child(even):hover {
+	background-color: aqua;
+}
+td.cztery:nth-child(odd):hover {
+	background-color: purple;
+}
+th.cztery:nth-child(odd):hover {
+	background-color: yellow;
+}
+td.cztery, th.cztery {
+	border-bottom: blue dotted 2px;
+	padding: 15px;
+}
+table.cztery1 {
+	width: 50%;
+	border: 1px solid black;
+}
+th.cztery1 {
+	color: red;
+	background-color: yellow;
+}
+td.cztery1 {
+	color: black;
+	background-color: white;
+}
+table.piec {
+	width: 50%;
+}
+th.piec {
+	color: red;
+	background-color: yellow;
+	border: 1px solid black;
+}
+td.piec {
+	color: black;
+	border: 1px solid black;
+}
+th.noc {
+	color: yellow;
+	border: 4px inset;
+	background-color: red;
+}
+td.noc, table.noc {
+	color: black;
+	border: 3px green outset;
+	padding: 10px;
+    width:70%
+}
+table.pink {
+	width: 50%;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th.pink {
+	background-color: pink;
+	color: purple;
+	border: 3px inset;
+	padding: 5px;
+}
+td.pink {
+	border: 3px solid black;
+	padding: 5px;}
+table.caption {
+	width: 50%;
+	border: 1px solid aqua;
+	background-color: black;
+	color: white;
+	caption-side: left;
+}
+th.caption {
+	color: blue;
+	background-color: pink;
+}
+td.caption {
+	border: 1px solid aqua;
+}
+.caption{
+	border: aqua;
+	background-color: green;
+	border: 1px solid blue;
+	width: 80pt;
+	text-align: center;
+}
+table.dwa1 {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: auto;
+	display: block;
+}
+th.dwa1, td.dwa1 {
+	padding: 8px;
+	border-top: 1px solid aqua
+}
+th.dwa1:hover, td.dwa1:hover {
+	background-color:aqua;
+}
+  
+        
+    
+    
+
+    
