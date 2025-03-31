@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl-PL>
+    <meta charset="iso-8859-2"/>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+    <style>
+        p::before::after{
+            border: black;
+            
+            
+        }
+        p{
+            border:grey solid 2px;
+            background-color: grey;
+            text-align: center;
+            font-size: 25px;
+            
+        }
+
+        h1{
+            size: 10px;
+            
+        }
+        h2{
+            size: 20px;
+        }
+        h1::first-letter{
+           border: yellow dotted 5px ; 
+           color: green;
+           font-size: 100px;
+           
+        }
+        h1::first-line{
+           border: green solid 5px; 
+           color: red;
+           border-spacing: 10px;
+           background-color: blueviolet;
+          
+        
+        }
+        h2::first-letter{
+           border: cyan solid 2px;
+           color: green;
+           border-radius: 10px;
+           font-size: 75px;
+           
+        }
+        h2::first-line{
+           border: green solid 5px; 
+           color: goldenrod;
+           background-color: pink;
+          
+        
+        }
+        
+
+    </style>
+
+    
+</style>
+</head>
+<body>
+    <p>ŻABA</p>
+<h1>P
+
+    ewna żaba ··
+    Była słaba
+    Więc przychodzi do doktora
+    I powiada, że jest chora.
+    Doktor włożył okulary,
+    Bo już był cokolwiek stary,
+    Potem ją dokładnie zbadał,
+    No, i wreszcie tak powiada:
+    
+    "Pani zanadto się poci,
+    Niech pani unika wilgoci,
+    Niech pani się czasem nie kąpie,
+    Niech pani nie siada przy pompie,
+    Niech pani deszczu unika,
+    Niech pani nie pływa w strumykach,
+    Niech pani wody nie pija,
+    Niech pani kałuże omija,
+   </h1>
+   <h2> Niech pani nie myje się z rana,
+    Niech pani, pani kochana,
+    Na siebie chucha i dmucha,
+    Bo pani musi być sucha!"
+    
+    Wraca żaba od doktora,
+    Myśli sobie: "Jestem chora,
+    A doktora chora słucha,
+    Mam być sucha - będę sucha!"
+    
+    Leczyła się żaba, leczyła,
+    Suszyła się długo, suszyła,
+    Aż wyschła tak, że po troszku
+    Została z niej garstka proszku.
+    
+    A doktor drapie się w ucho:
+    "Nie uszło jej to na sucho!"</h2>
+    
+</body>
+</html>

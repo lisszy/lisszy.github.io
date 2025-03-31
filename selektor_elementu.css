@@ -1,0 +1,17 @@
+div#id21{background: grey)}
+
+h4{font-weight:bold;}
+
+h1{font-size:20px;}
+
+h6{font-size:15px;line-height:1px;}
+
+div span{color:blue;font-size:20pt;}
+
+h3 > ins{color:yellow;font-size:20pt;}
+
+div + i{color:green;font-size:20pt;}
+
+h4 ~ i{color:red;font-size:20pt;}
+
+h4 {color:fuchsia;}
